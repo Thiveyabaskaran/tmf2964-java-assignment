@@ -74,6 +74,16 @@ public class Encoded extends JFrame {
     public int countCharacters(String inputText){
         return 0;
     }
+    public int countCharacters(String inputText) {
+        int count = 0;
+        for (int i = 0; i < inputText.length(); i++) {
+            if (inputText.charAt(i) != ' ') {
+                count++;
+            }
+        }
+        this.charCount = count; 
+        return count;
+    }
 
     public boolean checkStringValidity(String inputText){
         return false;
