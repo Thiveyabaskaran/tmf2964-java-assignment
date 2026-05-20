@@ -34,7 +34,7 @@ public class Encoded {
                 count++;
             }
         }
-        return count;
+        return count; 
     }
 
     public String applyCipher(String inputText, int shift){
